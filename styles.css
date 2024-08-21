@@ -1,0 +1,168 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 5rem 1rem 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.about-preview, .about, .portfolio, .contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* About section */
+.about {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan untuk profil */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+}
+
+.profile-details h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.profile-details p {
+    margin-bottom: 1rem;
+}
+
+.profile-details ul {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+.profile-details ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Portfolio section */
+.portfolio {
+    text-align: center;
+    padding: 2rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
